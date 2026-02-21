@@ -1,4 +1,4 @@
-# 📜 Cronología Simbólica Integrada (Modelo 7000 Años) — Edición Extendida
+# 📜 Cronología Simbólica Integrada (Modelo 7000 Años)
 
 Este repositorio contiene una **representación simbólica estructurada** basada en el eje masorético (~4000 a.C. como inicio) y el **modelo tipológico de 7000 años (4000 + 2000 + 1000)**.  
 **No constituye una predicción ni una fijación de fechas.** Es un ejercicio de integración teológica y comparativa que organiza eventos bíblicos, historia de la cristiandad, e hitos históricos modernos dentro de un marco narrativo coherente. Las fechas contemporáneas señaladas como “hipotéticas” reflejan **construcciones interpretativas posibles**, no afirmaciones cronológicas verificables.
