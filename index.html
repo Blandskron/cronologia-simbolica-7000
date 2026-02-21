@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cronología Simbólica Bíblica - 7000 Años (Edición Extendida)</title>
+
+  <style>
+    :root{
+      --primary:#1a2a6c;
+      --accent:#b21f1f;
+      --gold:#d4af37;
+      --bg:#fdfdfd;
+      --border:#dee2e6;
+      --muted:#666;
+      --soft:#f6f7fb;
+    }
+
+    body{
+      font-family: "Georgia", serif;
+      background:#f4f4f4;
+      color:#333;
+      line-height:1.6;
+      padding:20px;
+    }
+
+    .container{
+      max-width:1200px;
+      margin:0 auto;
+      background:var(--bg);
+      padding:40px;
+      border-radius:10px;
+      box-shadow:0 10px 30px rgba(0,0,0,.1);
+      border-top:8px solid var(--primary);
+    }
+
+    h1,h2{
+      color:var(--primary);
+      text-align:center;
+      text-transform:uppercase;
+      letter-spacing:1px;
+      margin:0 0 10px 0;
+    }
+    h2{
+      margin-bottom:22px;
+      font-size:1rem;
+      color:#2b3a86;
+    }
+
+    .intro-box{
+      background:#f9f9f9;
+      border:1px solid var(--gold);
+      padding:18px 20px;
+      margin-bottom:18px;
+      border-radius:8px;
+    }
+    .intro-box p{
+      margin:0;
+      font-style:italic;
+    }
+
+    .divider{
+      height:1px;
+      background:var(--border);
+      margin:18px 0;
+    }
+
+    .base-eje{
+      display:flex;
+      justify-content:space-around;
+      background:var(--primary);
+      color:#fff;
+      padding:14px 16px;
+      border-radius:8px;
+      margin:10px 0 18px 0;
+      font-weight:bold;
+      gap:10px;
+      flex-wrap:wrap;
+    }
+    .base-eje span{ white-space:nowrap; }
+
+    .legend{
+      display:flex;
+      gap:12px;
+      flex-wrap:wrap;
+      font-size:.92rem;
+      margin: 0 0 14px 0;
+      color: var(--muted);
+    }
+    .pill{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      border:1px solid var(--border);
+      background:var(--soft);
+      padding:6px 10px;
+      border-radius:999px;
+    }
+    .dot{
+      width:10px;height:10px;border-radius:50%;
+      background:var(--accent);
+      display:inline-block;
+    }
+
+    table{
+      width:100%;
+      border-collapse:collapse;
+      margin-bottom:18px;
+      font-size:.95rem;
+    }
+    th{
+      background:var(--primary);
+      color:#fff;
+      padding:12px;
+      text-align:left;
+      border:1px solid var(--border);
+      position:sticky;
+      top:0;
+      z-index:1;
+    }
+    td{
+      padding:12px;
+      border:1px solid var(--border);
+      vertical-align:top;
+    }
+    tr:nth-child(even){ background:#f2f2f2; }
+
+    .hipotetico{
+      color:var(--accent);
+      font-weight:bold;
+    }
+    .textos{
+      font-weight:bold;
+      color:#444;
+      display:block;
+      margin-bottom:6px;
+    }
+
+    .footer-obs{
+      background:#eee;
+      padding:22px;
+      border-radius:8px;
+      border-left:5px solid var(--primary);
+      margin-top:18px;
+    }
+    .footer-obs ul{ margin:10px 0 0 0; padding-left:20px; }
+    .footer-obs li{ margin:6px 0; }
+
+    .conclusion-final{
+      margin-top:18px;
+      padding:22px;
+      background:#f9f9f9;
+      border-left:5px solid var(--gold);
+      border-radius:8px;
+      font-style:italic;
+    }
+
+    @media (max-width: 860px){
+      .container{ padding:22px; }
+      table, thead, tbody, th, td, tr { display:block; }
+      thead { display:none; }
+      tr{ margin-bottom:14px; border:1px solid var(--border); border-radius:10px; overflow:hidden; }
+      td{ border:none; border-bottom:1px solid var(--border); padding:10px 12px; }
+      td:last-child{ border-bottom:none; }
+      td[data-label]::before{
+        content: attr(data-label);
+        display:block;
+        font-weight:bold;
+        color:var(--primary);
+        margin-bottom:4px;
+      }
+      th{ position:static; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>📜 Cronología Simbólica Integrada</h1>
+    <h2>Modelo de 7000 Años — Edición Extendida (Historia bíblica + historia humana)</h2>
+
+    <div class="intro-box">
+      <p>
+        A continuación se presenta una <strong>representación simbólica estructurada</strong> basada en el eje masorético
+        (~4000 a.C. como inicio) y el modelo tipológico de 7000 años (4000 + 2000 + 1000).
+        No constituye una predicción ni una fijación de fechas. Es un ejercicio de integración teológica y comparativa
+        que organiza eventos bíblicos e interpretaciones históricas modernas dentro de un marco narrativo coherente.
+        Las fechas contemporáneas señaladas como “hipotéticas” reflejan construcciones interpretativas posibles,
+        no afirmaciones cronológicas verificables.
+      </p>
+    </div>
+
+    <div class="base-eje">
+      <span>Base: 4000 a.C. = Año 1</span>
+      <span>Año 6000 ≈ 2000 d.C.</span>
+      <span>Año 7000 ≈ 3000 d.C.</span>
+    </div>
+
+    <div class="legend">
+      <span class="pill"><span class="dot"></span> Fechas marcadas como <strong>hipotéticas</strong> (escenarios interpretativos)</span>
+      <span class="pill">“Año bíblico paralelo” = 4000 + año d.C. (aprox.)</span>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Año Histórico</th>
+          <th>Año Bíblico Paralelo</th>
+          <th>Evento</th>
+          <th>Textos Asociados</th>
+          <th>Detalle</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <!-- ANTIGUO TESTAMENTO -->
+        <tr>
+          <td data-label="Año Histórico">4000 a.C.</td>
+          <td data-label="Año Bíblico Paralelo">1</td>
+          <td data-label="Evento"><strong>Creación</strong></td>
+          <td data-label="Textos Asociados">Génesis 1–2</td>
+          <td data-label="Detalle">Inicio del modelo simbólico de 7000 años derivado del paralelismo 7 días.</td>
+        </tr>
+
+        <tr>
+          <td data-label="Año Histórico">2400 a.C.</td>
+          <td data-label="Año Bíblico Paralelo">1601</td>
+          <td data-label="Evento"><strong>Diluvio</strong></td>
+          <td data-label="Textos Asociados">Génesis 6–9</td>
+          <td data-label="Detalle">Juicio global tipológico que prefigura juicios escatológicos.</td>
+        </tr>
+
+        <tr>
+          <td data-label="Año Histórico">2000 a.C.</td>
+          <td data-label="Año Bíblico Paralelo">2001</td>
+          <td data-label="Evento"><strong>Llamado de Abraham</strong></td>
+          <td data-label="Textos Asociados">Génesis 12</td>
+          <td data-label="Detalle">Inicio del pacto redentor y línea mesiánica.</td>
+        </tr>
+
+        <tr>
+          <td data-label="Año Histórico">1446 a.C.</td>
+          <td data-label="Año Bíblico Paralelo">2555</td>
+          <td data-label="Evento"><strong>Éxodo</strong></td>
+          <td data-label="Textos Asociados">Éxodo 12</td>
+          <td data-label="Detalle">Liberación fundacional; tipología de redención final.</td>
+        </tr>
+
+        <tr>
+          <td data-label="Año Histórico">1000 a.C.</td>
+          <td data-label="Año Bíblico Paralelo">3001</td>
+          <td data-label="Evento"><strong>Reinado de David</strong></td>
+          <td data-label="Textos Asociados">2 Samuel 7</td>
+          <td data-label="Detalle">Promesa del trono eterno; base mesiánica.</td>
+        </tr>
+
+        <tr>
+          <td data-label="Año Histórico">586 a.C.</td>
+          <td data-label="Año Bíblico Paralelo">3415</td>
+          <td data-label="Evento"><strong>Exilio Babilónico</strong></td>
+          <td data-label="Textos Asociados">2 Reyes 25</td>
+          <td data-label="Detalle">Ancla histórica sólida dentro del AT.</td>
+        </tr>
+
+        <!-- NUEVO TESTAMENTO -->
+        <tr>
+          <td data-label="Año Histórico">5 a.C.</td>
+          <td data-label="Año Bíblico Paralelo">3996</td>
+          <td data-label="Evento"><strong>Nacimiento de Cristo</strong></td>
+          <td data-label="Textos Asociados">Mateo 2 / Lucas 2</td>
+          <td data-label="Detalle">Cierre aproximado de los primeros 4000 años simbólicos.</td>
+        </tr>
+
+        <tr>
+          <td data-label="Año Histórico">33 d.C.</td>
+          <td data-label="Año Bíblico Paralelo">4033</td>
+          <td data-label="Evento"><strong>Crucifixión</strong></td>
+          <td data-label="Textos Asociados">Mateo 27</td>
+          <td data-label="Detalle">Centro histórico-teológico del eje cronológico.</td>
+        </tr>
+
+        <tr>
+          <td data-label="Año Histórico">70 d.C.</td>
+          <td data-label="Año Bíblico Paralelo">4070</td>
+          <td data-label="Evento"><strong>Destrucción de Jerusalén</strong></td>
+          <td data-label="Textos Asociados">Mateo 24</td>
+          <td data-label="Detalle">Cumplimiento parcial del discurso escatológico.</td>
+        </tr>
+
+        <tr>
+          <td data-label="Año Histórico">95 d.C.</td>
+          <td data-label="Año Bíblico Paralelo">4095</td>
+          <td data-label="Evento"><strong>Mensaje a las 7 Iglesias</strong></td>
+          <td data-label="Textos Asociados">Apocalipsis 2–3</td>
+          <td data-label="Detalle">
+            Dirigido originalmente a iglesias históricas; interpretaciones posteriores las ven como etapas de la cristiandad o corrientes denominacionales.
+          </td>
+        </tr>
+
+        <!-- HISTORIA DE LA CRISTIANDAD (PUENTES INTERPRETATIVOS) -->
+        <tr>
+          <td data-label="Año Histórico">313</td>
+          <td data-label="Año Bíblico Paralelo">4313</td>
+          <td data-label="Evento"><strong>Edicto de Milán (tolerancia cristiana)</strong></td>
+          <td data-label="Textos Asociados">Hechos 4:29–31 (contexto), Apoc 2–3 (etapas)</td>
+          <td data-label="Detalle">
+            Punto de inflexión: cristianismo deja de ser perseguido y entra en fase pública; algunos modelos lo ubican como transición hacia “cristiandad imperial”.
+          </td>
+        </tr>
+
+        <tr>
+          <td data-label="Año Histórico">325</td>
+          <td data-label="Año Bíblico Paralelo">4325</td>
+          <td data-label="Evento"><strong>Concilio de Nicea</strong></td>
+          <td data-label="Textos Asociados">Judas 3 (contender por la fe), 2 Tes 2:3 (interpretaciones)</td>
+          <td data-label="Detalle">
+            Consolidación doctrinal en una iglesia ya vinculada al poder imperial. En marcos interpretativos modernos se usa como hito de institucionalización.
+          </td>
+        </tr>
+
+        <tr>
+          <td data-label="Año Histórico">1054</td>
+          <td data-label="Año Bíblico Paralelo">5054</td>
+          <td data-label="Evento"><strong>Cisma Oriente–Occidente</strong></td>
+          <td data-label="Textos Asociados">1 Cor 1:10 (unidad), Apoc 2–3 (etapas)</td>
+          <td data-label="Detalle">
+            Ruptura formal de comunión entre Oriente y Occidente; a nivel simbólico se interpreta como fragmentación progresiva de la unidad visible.
+          </td>
+        </tr>
+
+        <tr>
+          <td data-label="Año Histórico">1095–1291</td>
+          <td data-label="Año Bíblico Paralelo">5095–5291</td>
+          <td data-label="Evento"><strong>Cruzadas</strong></td>
+          <td data-label="Textos Asociados">Mateo 24:6 (guerras), Apoc 6 (conflicto)</td>
+          <td data-label="Detalle">
+            Conflicto religioso-político prolongado; algunos marcos lo insertan como evidencia de mezcla entre fe, poder y violencia en la historia humana.
+          </td>
+        </tr>
+
+        <tr>
+          <td data-label="Año Histórico">1517</td>
+          <td data-label="Año Bíblico Paralelo">5517</td>
+          <td data-label="Evento"><strong>Reforma protestante</strong></td>
+          <td data-label="Textos Asociados">Romanos 1:17 (fe), Apoc 2–3 (etapas)</td>
+          <td data-label="Detalle">
+            Ruptura doctrinal e institucional; en lecturas historicistas suele encajar como etapa de “despertar” o “reforma” frente a corrupción percibida.
+          </td>
+        </tr>
+
+        <tr>
+          <td data-label="Año Histórico">1611</td>
+          <td data-label="Año Bíblico Paralelo">5611</td>
+          <td data-label="Evento"><strong>Difusión masiva de traducciones (hito representativo)</strong></td>
+          <td data-label="Textos Asociados">Isaías 55:11 (palabra), Mateo 24:14</td>
+          <td data-label="Detalle">
+            Expansión de acceso a textos bíblicos; en modelos de “predicación global” se considera un precursor histórico de la mundialización religiosa.
+          </td>
+        </tr>
+
+        <tr>
+          <td data-label="Año Histórico">1789</td>
+          <td data-label="Año Bíblico Paralelo">5789</td>
+          <td data-label="Evento"><strong>Revolución Francesa (hito representativo)</strong></td>
+          <td data-label="Textos Asociados">Daniel 7 (poderes), Apoc 13 (lecturas)</td>
+          <td data-label="Detalle">
+            Ruptura política moderna y secularización acelerada; en interpretaciones apocalípticas se usa como marcador de cambio civilizatorio.
+          </td>
+        </tr>
+
+        <!-- SIGLO XX (GUERRAS / INSTITUCIONES) -->
+        <tr>
+          <td data-label="Año Histórico">1914–1918</td>
+          <td data-label="Año Bíblico Paralelo">5914–5918</td>
+          <td data-label="Evento"><strong>Primera Guerra Mundial</strong></td>
+          <td data-label="Textos Asociados">Mateo 24:6–7</td>
+          <td data-label="Detalle">
+            “Guerras y noticias de guerras” como patrón; en marcos escatológicos modernos, el siglo XX aparece como intensificación de conflicto global.
+          </td>
+        </tr>
+
+        <tr>
+          <td data-label="Año Histórico">1939–1945</td>
+          <td data-label="Año Bíblico Paralelo">5939–5945</td>
+          <td data-label="Evento"><strong>Segunda Guerra Mundial</strong></td>
+          <td data-label="Textos Asociados">Mateo 24:6–7</td>
+          <td data-label="Detalle">
+            Escala y trauma global; algunos modelos lo leen como aceleración histórica previa a un “orden internacional” posterior.
+          </td>
+        </tr>
+
+        <tr>
+          <td data-label="Año Histórico">1945</td>
+          <td data-label="Año Bíblico Paralelo">5945</td>
+          <td data-label="Evento"><strong>ONU (hito de gobernanza internacional)</strong></td>
+          <td data-label="Textos Asociados">Apoc 13 (lecturas), 1 Tes 5:3 (lecturas)</td>
+          <td data-label="Detalle">
+            Estructura de coordinación global; a nivel simbólico puede usarse como antecedente de marcos interpretativos sobre cooperación/poder mundial.
+          </td>
+        </tr>
+
+        <tr>
+          <td data-label="Año Histórico">1947–1991</td>
+          <td data-label="Año Bíblico Paralelo">5947–5991</td>
+          <td data-label="Evento"><strong>Guerra Fría (hito representativo)</strong></td>
+          <td data-label="Textos Asociados">Mateo 24:6 (tensión), Apoc 6 (conflicto)</td>
+          <td data-label="Detalle">
+            Conflicto sistémico prolongado; se lee como “rumores de guerra” en marcos escatológicos amplios.
+          </td>
+        </tr>
+
+        <tr>
+          <td data-label="Año Histórico">1948</td>
+          <td data-label="Año Bíblico Paralelo">5948</td>
+          <td data-label="Evento"><strong>Estado moderno de Israel</strong></td>
+          <td data-label="Textos Asociados">Interpretaciones de Isaías 66</td>
+          <td data-label="Detalle">Integrado en sistemas escatológicos modernos como reinicio geopolítico significativo.</td>
+        </tr>
+
+        <tr>
+          <td data-label="Año Histórico">1969 / 1991</td>
+          <td data-label="Año Bíblico Paralelo">5969 / 5991</td>
+          <td data-label="Evento"><strong>Era digital (internet como hito representativo)</strong></td>
+          <td data-label="Textos Asociados">Mateo 24:14 (difusión), Daniel 12:4 (lecturas)</td>
+          <td data-label="Detalle">
+            Aceleración de información y conectividad global; usado como factor habilitante en modelos de predicación y control económico contemporáneos.
+          </td>
+        </tr>
+
+        <!-- UMBRAL 6000 -->
+        <tr>
+          <td data-label="Año Histórico">2000</td>
+          <td data-label="Año Bíblico Paralelo">6000</td>
+          <td data-label="Evento"><strong>Fin simbólico de 6000 años</strong></td>
+          <td data-label="Textos Asociados">2 Pedro 3:8 (tipología)</td>
+          <td data-label="Detalle">Aplicación del paralelismo “día como mil años” dentro del modelo 6+1.</td>
+        </tr>
+
+        <tr>
+          <td data-label="Año Histórico">2001</td>
+          <td data-label="Año Bíblico Paralelo">6001</td>
+          <td data-label="Evento"><strong>Reconfiguración geopolítica (hito representativo)</strong></td>
+          <td data-label="Textos Asociados">Mateo 24:6–8</td>
+          <td data-label="Detalle">
+            Punto de inflexión geopolítico global (representativo). En marcos escatológicos se asocia a intensificación de conflicto, vigilancia y cambios de orden.
+          </td>
+        </tr>
+
+        <tr>
+          <td data-label="Año Histórico">2008</td>
+          <td data-label="Año Bíblico Paralelo">6008</td>
+          <td data-label="Evento"><strong>Crisis financiera global (hito representativo)</strong></td>
+          <td data-label="Textos Asociados">Apoc 13:16–17 (lecturas), Mateo 24:7 (hambres/crisis)</td>
+          <td data-label="Detalle">
+            Fragilidad económica sistémica; en algunos modelos se usa como antecedente de futuras formas de control económico o reorganización monetaria.
+          </td>
+        </tr>
+
+        <tr>
+          <td data-label="Año Histórico">2014</td>
+          <td data-label="Año Bíblico Paralelo">6014</td>
+          <td data-label="Evento"><strong>Declaración de predicación global (Testigos de Jehová)</strong></td>
+          <td data-label="Textos Asociados">Mateo 24:14</td>
+          <td data-label="Detalle">
+            Declaración denominacional de cobertura mundial; el texto bíblico no establece medición cuantitativa específica.
+          </td>
+        </tr>
+
+        <tr>
+          <td data-label="Año Histórico">2019–2021</td>
+          <td data-label="Año Bíblico Paralelo">6019–6021</td>
+          <td data-label="Evento"><strong>Crisis global (COVID)</strong></td>
+          <td data-label="Textos Asociados">Mateo 24:7</td>
+          <td data-label="Detalle">Pestes y crisis mencionadas en discurso escatológico; históricamente recurrentes.</td>
+        </tr>
+
+        <!-- ✅ NUEVOS HITOS (IA + TRANSHUMANISMO + DANIEL 2) -->
+        <tr>
+          <td data-label="Año Histórico">2021+</td>
+          <td data-label="Año Bíblico Paralelo">6021+</td>
+          <td data-label="Evento"><strong>Expansión acelerada de IA (hito representativo)</strong></td>
+          <td data-label="Textos Asociados">Daniel 12:4 (lecturas), Daniel 2:41–43 (lecturas)</td>
+          <td data-label="Detalle">
+            En esta lectura simbólica, la aceleración tecnológica posterior a 2021 se interpreta como un “umbral” civilizatorio.
+            Se conecta con lecturas contemporáneas de Daniel donde el aumento de conocimiento (Dn 12:4, en interpretación amplia)
+            y la imagen de los “pies de hierro y barro” (Dn 2:41–43) sirven como metáfora de una mezcla inestable entre
+            <em>fuerza técnica (hierro)</em> y <em>fragilidad humana/biológica (barro)</em>.
+          </td>
+        </tr>
+
+        <tr>
+          <td data-label="Año Histórico">2022–2026</td>
+          <td data-label="Año Bíblico Paralelo">6022–6026</td>
+          <td data-label="Evento"><strong>Reordenamiento global (hito representativo)</strong></td>
+          <td data-label="Textos Asociados">Mateo 24:6–8 (patrones)</td>
+          <td data-label="Detalle">
+            Periodo interpretado por algunos marcos como transición: tensiones, cadenas de suministro, polarización,
+            aceleración tecnológica y debate de soberanía/seguridad.
+          </td>
+        </tr>
+
+        <tr>
+          <td data-label="Año Histórico">2024+</td>
+          <td data-label="Año Bíblico Paralelo">6024+</td>
+          <td data-label="Evento"><strong>Propuestas de “superhumanos” / transhumanismo (hito representativo)</strong></td>
+          <td data-label="Textos Asociados">Daniel 2:43 (lecturas), Génesis 2:7 (barro/polvo), Salmo 8:4–6 (humanidad)</td>
+          <td data-label="Detalle">
+            En una lectura simbólica moderna, el impulso por “mejorar” al ser humano (biotecnología, interfaces, aumento cognitivo)
+            se vincula al contraste bíblico entre criatura “formada del polvo” (Gn 2:7) y la tensión de Daniel 2:43 (“mezclarán… pero no se unirán”).
+            Esta relación se presenta aquí como marco interpretativo, no como equivalencia literal.
+          </td>
+        </tr>
+
+        <!-- TRAMO HIPOTÉTICO (MANTENIENDO TUS HITOS) -->
+        <tr>
+          <td data-label="Año Histórico" class="hipotetico">2027 (hipotético)</td>
+          <td data-label="Año Bíblico Paralelo">6027</td>
+          <td data-label="Evento"><strong>Proclamación “paz y seguridad”</strong></td>
+          <td data-label="Textos Asociados">1 Tesalonicenses 5:3</td>
+          <td data-label="Detalle">Interpretación simbólica de declaración global previa a juicio; el texto no fija calendario.</td>
+        </tr>
+
+        <tr>
+          <td data-label="Año Histórico" class="hipotetico">2030 (hipotético)</td>
+          <td data-label="Año Bíblico Paralelo">6030</td>
+          <td data-label="Evento"><strong>Consolidación de autoridad global</strong></td>
+          <td data-label="Textos Asociados">Apocalipsis 13</td>
+          <td data-label="Detalle">Simbolismo de poder imperial global; históricamente aplicado a distintas estructuras políticas.</td>
+        </tr>
+
+        <tr>
+          <td data-label="Año Histórico" class="hipotetico">2030–2033 (hipotético)</td>
+          <td data-label="Año Bíblico Paralelo">6030–6033</td>
+          <td data-label="Evento"><strong>“Marca de la bestia” asociada a control económico</strong></td>
+          <td data-label="Textos Asociados">Apocalipsis 13:16–17</td>
+          <td data-label="Detalle">En contexto original representaba lealtad imperial; aplicaciones modernas son analógicas.</td>
+        </tr>
+
+        <tr>
+          <td data-label="Año Histórico" class="hipotetico">2033 (hipotético)</td>
+          <td data-label="Año Bíblico Paralelo">6033</td>
+          <td data-label="Evento"><strong>Retorno de Cristo / Armagedón</strong></td>
+          <td data-label="Textos Asociados">Apocalipsis 19</td>
+          <td data-label="Detalle">Simetría de 2000 años desde la cruz; no existe correlación matemática explícita en el texto.</td>
+        </tr>
+
+        <tr>
+          <td data-label="Año Histórico" class="hipotetico">2040+ (hipotético)</td>
+          <td data-label="Año Bíblico Paralelo">6040+</td>
+          <td data-label="Evento"><strong>Inicio restauración progresiva</strong></td>
+          <td data-label="Textos Asociados">Apocalipsis 20</td>
+          <td data-label="Detalle">Interpretación literal del milenio como periodo de transformación.</td>
+        </tr>
+
+        <!-- CIERRE 7000 -->
+        <tr>
+          <td data-label="Año Histórico">3000 d.C.</td>
+          <td data-label="Año Bíblico Paralelo">7000</td>
+          <td data-label="Evento"><strong>Nuevo cielo y nueva tierra</strong></td>
+          <td data-label="Textos Asociados">Apocalipsis 21–22</td>
+          <td data-label="Detalle">Cierre del esquema 7000 años por paralelismo sabático completo.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="footer-obs">
+      <h3 style="text-align:left;margin:0 0 8px 0;">🧠 Observación estructural final</h3>
+      <p>El modelo integra:</p>
+      <ul>
+        <li>Tipología 6+1 (creación)</li>
+        <li>4000 años hasta Cristo</li>
+        <li>2000 años era de la Iglesia</li>
+        <li>1000 años milenio</li>
+        <li>Eventos históricos modernos como posibles puntos de convergencia simbólica</li>
+        <li>Hitos doctrinales e institucionales (Nicea, cismas, reforma) como “puentes interpretativos” en lecturas historicistas</li>
+        <li>Hitos geopolíticos y tecnológicos (guerras mundiales, ONU, era digital, IA) como marcadores de intensificación sistémica</li>
+        <li>Lecturas contemporáneas de Daniel 2 (hierro/barro) como metáfora de tensión entre técnica y naturaleza humana</li>
+      </ul>
+      <p style="margin-top:12px;">
+        Su fortaleza es la coherencia narrativa.<br />
+        Su límite es la ausencia de un mecanismo textual que obligue a esa secuencia cronológica exacta.
+      </p>
+    </div>
+
+    <div class="conclusion-final">
+      Este documento representa la consolidación estructural de múltiples líneas de estudio desarrolladas por diversos intérpretes a lo largo de la historia.
+      La integración final presentada aquí constituye una síntesis elaborada por <strong>Bastián Landskron</strong> como resultado de más de diez años de estudios bíblicos personales.
+      No pretende ser una declaración profética ni una fijación cronológica literal, sino un ejercicio académico-teológico de cierre e integración simbólica.
+    </div>
+  </div>
+</body>
+</html>
