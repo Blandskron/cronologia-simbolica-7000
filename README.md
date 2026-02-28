@@ -1,11 +1,11 @@
-# 📜 Cronología Simbólica Integrada (Modelo 7000 Años)
+# Cronología Simbólica Integrada (Modelo 7000 Años)
 
 Este repositorio contiene una **representación simbólica estructurada** basada en el eje masorético (~4000 a.C. como inicio) y el **modelo tipológico de 7000 años (4000 + 2000 + 1000)**.  
 **No constituye una predicción ni una fijación de fechas.** Es un ejercicio de integración teológica y comparativa que organiza eventos bíblicos, historia de la cristiandad, e hitos históricos modernos dentro de un marco narrativo coherente. Las fechas contemporáneas señaladas como “hipotéticas” reflejan **construcciones interpretativas posibles**, no afirmaciones cronológicas verificables.
 
 ---
 
-## ✅ ¿Qué hay en este proyecto?
+## ¿Qué hay en este proyecto?
 
 - Un **HTML listo para publicar** que presenta una tabla con:
   - Año histórico
@@ -24,7 +24,7 @@ Este repositorio contiene una **representación simbólica estructurada** basada
 
 ---
 
-## 🧭 Eje base del modelo
+## Eje base del modelo
 
 Este proyecto utiliza un eje de referencia simbólico:
 
@@ -39,7 +39,7 @@ Este proyecto utiliza un eje de referencia simbólico:
 
 ---
 
-## 🧩 Estructura interpretativa: 4000 + 2000 + 1000
+## Estructura interpretativa: 4000 + 2000 + 1000
 
 Este marco se usa por su **simetría teológica**:
 
@@ -51,7 +51,7 @@ Este esquema es conocido en corrientes historicistas y tipológicas, y aquí se 
 
 ---
 
-## 🏛 ¿Por qué incluir Nicea, cismas, Reforma y guerras?
+## ¿Por qué incluir Nicea, cismas, Reforma y guerras?
 
 Porque el objetivo no es solo enumerar eventos bíblicos, sino construir un **mapa de continuidad histórica** donde:
 
@@ -66,7 +66,7 @@ Esto permite un documento final que funciona como:
 
 ---
 
-## 🏷 “Hipotético”: qué significa en este documento
+## “Hipotético”: qué significa en este documento
 
 Las entradas marcadas como **(hipotético)** son escenarios propuestos dentro de una lectura simbólica.
 
@@ -78,7 +78,7 @@ En resumen: “hipotético” = **posible lectura**, no predicción.
 
 ---
 
-## 🧠 Marco simbólico de Daniel 2 (hierro + barro)
+## Marco simbólico de Daniel 2 (hierro + barro)
 
 En este documento se introduce una lectura contemporánea (no dogmática) del símbolo de:
 
@@ -97,7 +97,7 @@ Aquí se toma como metáfora útil para pensar tensiones como:
 
 ---
 
-## 📖 Textos bíblicos clave usados como anclas
+## Textos bíblicos clave usados como anclas
 
 - **Génesis 1–2** (creación y modelo 7 días)
 - **Mateo 24** (patrones: guerras, pestes, proclamación)
